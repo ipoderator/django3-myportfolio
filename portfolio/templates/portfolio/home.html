@@ -4,17 +4,22 @@
 
 {% block content %}
 
-<div class="row justify-content-center my-3">
-  <div class="col-5">
-    <img src="{% static 'portfolio/photo_2022-04-21_17-00-52.jpg' %}" class="img-fluid">
+<body>
+<aside>
+  <div class="row justify-content-center my-3">
+    <div class="image">
+      <a href="{% url 'home' %}"><img src="{% static 'portfolio/photo_2022-04-21_17-00-52.jpg' %}"  alt="Лого"></a>
+      <link rel="stylesheet" href="{% static 'portfolio/custom.css' %}">
+    </div>
   </div>
-</div>
+</aside>
 
 <div class="row justify-content-center mb-3">
   <div class="col-md-9 text-center">
-    <h1 id="hometext" class="font-weight-bold">Hello everyone, my name is Gleb Churkin, welcome to my website </h1>
+    <h1 id="hometext" class="font-weight-bold">Hello everyone, my name is Gleb Churkin, welcome to my website</h1>
   </div>
 </div>
+
 
 <h2 class="mt-5">Portfolio</h2>
 <hr>
@@ -35,8 +40,12 @@
 
   </div>
   {% endfor %}
+<main>
+  {% endblock %}
+</main>
 </div>
+</body>
 
-{% endblock %}
+
 
 

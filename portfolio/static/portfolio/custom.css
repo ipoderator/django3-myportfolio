@@ -1,5 +1,7 @@
 .navbar-nav .nav-link {
     color: rgba(0,0,0,1) !important;
+    vertical-align: auto;
+
 }
 
 .navbar-nav .nav-link:hover {
@@ -8,6 +10,12 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #f5f4f8;
+    font-size: 20px;
+}
+
+aside img {
+    width: 500px;
 }
 
 #blogtitle {
@@ -16,9 +24,10 @@ body {
 
 @media (min-width: 992px) {
     #hometext {
-        font-size: 4rem;
+        font-size: 40px;
     }
     #blogdetailtitle {
-        font-size: 5rem;
+        font-size: 10px;
     }
 }
+

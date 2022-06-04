@@ -1,5 +1,6 @@
 from django.db import models
 
+
 """ Класс по взаимодейсвию с базой данных """
 class Project(models.Model):  
     title = models.CharField(max_length=100)
