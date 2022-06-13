@@ -15,23 +15,17 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-import os
-
-
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 SECRET_KEY = 'hf&y$+n4mis@*@vxu6!np(ertasdadasdfsf??&Dfs#omh4aih%wlz-q&ys%$zu!e)o'
 
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
 
+ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
